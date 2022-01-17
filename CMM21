@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+    long long n,ans;
+    scanf("%lld",&n);
+    ans=1;
+    for(int i=1; i<=n; i++){
+        ans*=i;
+    }
+    printf("%lld\n",ans);
+    
+    return 0;
+}
