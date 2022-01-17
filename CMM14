@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+    int s,d,h,m,se;
+    scanf("%d",&s);
+    d=s/86400;
+    s%=86400;
+    h=s/3600;
+    s%=3600;
+    m=s/60;
+    s%=60;
+    se=s;
+    printf("%d days\n%d hours\n%d minutes\n%d seconds\n",d,h,m,se);
+    return 0;
+}
