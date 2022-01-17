@@ -1,0 +1,8 @@
+#include<stdio.h>
+
+int main(){
+    float up,down,high;
+    scanf("%f %f %f",&up,&down,&high);
+    printf("Trapezoid area:%.1f\n",(up+down)*high/2);
+    return 0;
+}
