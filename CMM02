@@ -1,0 +1,8 @@
+#include<stdio.h>
+
+int main(){
+    float down,high;
+    scanf("%f %f",&down,&high);
+    printf("%.1f\n",down*high/2);
+    return 0;
+}
