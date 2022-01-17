@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main(){
+    int i,sum=1;
+    scanf("%d",&i);
+    if(i>31) printf("Value of more than 31\n");
+    else{
+        for(int j=0; j<i; j++){
+            sum*=2;
+        }
+        printf("%d\n",sum);
+    }
+    
+    return 0;
+}
