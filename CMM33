@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main(){
+    int n,sum,rec=0,a[1000];
+    scanf("%d",&n);
+    for(int i=1; i<=n; i++){
+        sum=0;
+        for(int j=1;j<i;j++){
+            if(i%j==0) sum+=j;
+        }
+        if(sum==i) a[rec++]=i;
+    }
+    int j;
+    for(j=0;j<rec-1;j++){
+        printf("%d ",a[j]);
+    }
+    printf("%d",a[j]);
+    printf("\n");
+    
+    return 0;
+}
