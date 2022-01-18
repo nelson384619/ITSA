@@ -5,7 +5,6 @@ int main(){
     scanf("%lf",&a); //8.82 77.79
     double a2=a*a;
     a2=a2*10+0.5;
-    floor(a2);
     a2/=10;
     printf("%.1f\n",a2);
     return 0;
